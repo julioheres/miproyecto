@@ -86,8 +86,12 @@ h2{
 .imgkoala{
     margin: 20px 60px;
     width: 85%;
+    transition: all 1s;
 }
 
+.imgkoala:hover{
+    transform: scale(1.1);
+}
 /* --------------------------------- */
 
 
@@ -234,8 +238,11 @@ h2{
 .retra__img{
     width: 100%;
     box-shadow: 23px 28px 17px -24px rgba(0,0,0,0.79);
+    transition: 1s;
 }
-
+.retra__img:hover{
+    transform: scale(0.9);
+}
 
 /* media Q retratos */
 
